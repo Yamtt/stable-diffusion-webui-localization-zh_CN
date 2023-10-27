@@ -20,6 +20,7 @@ Simplified Chinese translation extension , Used for [AUTOMATIC1111's stable diff
   - [x] [dreambooth 插件](https://github.com/d8ahazard/sd_dreambooth_extension)  
   - [x] [智能预处理](https://github.com/d8ahazard/sd_smartprocess)  
   - [x] [图库浏览器](https://github.com/yfszzx/stable-diffusion-webui-images-browser)  
+  - [x] [生成过程动画](https://github.com/vladmandic/sd-extension-steps-animation)  
   - [ ] [灵感](https://github.com/yfszzx/stable-diffusion-webui-inspiration)  
   - [ ] [Deforum](https://github.com/deforum-art/deforum-for-automatic1111-webui)  
   - [ ] [艺术家图库](https://github.com/camenduru/stable-diffusion-webui-artists-to-study)  
@@ -60,14 +61,14 @@ Simplified Chinese translation extension , Used for [AUTOMATIC1111's stable diff
 </details>
 
 ## 贡献
-- 如果你觉得有些翻译很奇怪，可以在qq群里交流，群号418316375；又或者[提交一个新issue](https://github.com/dtlnor/stable-diffusion-webui-localization-zh_CN/issues/new/choose)
+- 如果你觉得有些翻译很奇怪，或者希望某个扩展被汉化，可以在 qq 群里交流，群号 [418316375](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=thuOC8Ptq5xMV2AwyXwPgnTwMumDBrAP&authKey=DiYFGSuBpaFkMvzx4IyO7J3RD4wq4hvVrz%2BIa8wHuZ6%2F3EK9BH3R0XOweb0oRv%2By&noverify=0&group_code=418316375)（Anne分支：[703219445](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=BXSQ51FJ1Tx3VIjWsC3nt1PoVtZh1_Se&authKey=iTeH%2FHeGSo6HCNNnefh%2FsrBNnY%2F%2BeSx73%2BX1uTc4e4TGYkordrWQz1nH8Ll77RAe&noverify=0&group_code=703219445)）；又或者[提交一个新issue](https://github.com/dtlnor/stable-diffusion-webui-localization-zh_CN/issues/new/choose)
 - 如果你想添加一些尚未支持的扩展、脚本的翻译，欢迎pr
 
 ## Credit
 - 所有的 contributor 以及 collaborator
 - 御坂桜
 
-## 如何安装webUI简体中文语言包
+## 如何安装webUI简体中文语言包（主分支）
 
 <details>
   <summary>新版本 webui 安装方法【点击展开】</summary>
@@ -80,7 +81,7 @@ Simplified Chinese translation extension , Used for [AUTOMATIC1111's stable diff
 
   - 在 `zh_CN Localization` 这一项的右边点击 `install`
   ![image](https://user-images.githubusercontent.com/21131439/220507520-77eab48a-272b-4a06-a38a-ca721181092f.png)
-  - 安装完成，跳转到 [如何使用](#如何使用)
+  - 安装完成，跳转到 [如何切换分支](#如何切换分支)
 
   ### 2. 或者，通过网址安装
   - 点击 `Extension` 选项卡，点击 `Install from URL` 子选项卡
@@ -90,9 +91,9 @@ Simplified Chinese translation extension , Used for [AUTOMATIC1111's stable diff
   ```
   - 粘贴进 URL 栏，点击 `Install`，如图
   ![image](https://user-images.githubusercontent.com/60730393/202898107-e207d645-e446-456c-8a5b-6dd400eba480.png)  
-  - 安装完成，跳转到 [如何使用](#如何使用)
+  - 安装完成，跳转到 [如何切换分支](#如何切换分支)
 
-  ### 3. 又或者，直接下载然后放在对应路径
+  ### 3. 又或者，直接下载然后放在对应路径（无法自动更新）
   - [下载本 git 仓库](https://codeload.github.com/dtlnor/stable-diffusion-webui-localization-zh_CN/zip/refs/heads/main)为 zip 档案
   ![image](https://user-images.githubusercontent.com/60730393/202898203-8f4265ff-efc1-4cb4-887a-86af291c000e.png)  
 
@@ -113,7 +114,7 @@ Simplified Chinese translation extension , Used for [AUTOMATIC1111's stable diff
 
   - 在 `zh_CN Localization` 这一项的右边点击 `install`
   ![image](https://user-images.githubusercontent.com/60730393/202897890-cd502e8d-dee0-48f8-835a-c3446cfb526c.png)
-  - 安装完成，跳转到 [如何使用](#如何使用)
+  - 安装完成，跳转到 [如何切换分支](#如何切换分支)
 
   ### 2. 或者，通过网址安装【旧版】
   - 点击 `extension` 选项卡，点击 `Install from URL` 子选项卡
@@ -123,9 +124,9 @@ Simplified Chinese translation extension , Used for [AUTOMATIC1111's stable diff
   ```
   - 粘贴进 URL 栏，点击 `Install`，如图
   ![image](https://user-images.githubusercontent.com/60730393/202898107-e207d645-e446-456c-8a5b-6dd400eba480.png)  
-  - 安装完成，跳转到 [如何使用](#如何使用)
+  - 安装完成，跳转到 [如何切换分支](#如何切换分支)
 
-  ### 3. 又或者，直接下载然后放在对应路径【旧版】
+  ### 3. 又或者，直接下载然后放在对应路径【旧版】（无法自动更新）
   - [下载本 git 仓库](https://codeload.github.com/dtlnor/stable-diffusion-webui-localization-zh_CN/zip/refs/heads/main)为 zip 档案
   ![image](https://user-images.githubusercontent.com/60730393/202898203-8f4265ff-efc1-4cb4-887a-86af291c000e.png)  
 
@@ -135,6 +136,12 @@ Simplified Chinese translation extension , Used for [AUTOMATIC1111's stable diff
 
 </details>
 
+## 如何切换分支
+ **要使用 Anne 分支的汉化，需要手动切换插件的分支**  
+- 打开插件的 `安装目录`（一般为 `根目录\extensions\stable-diffusion-webui-localization-zh_CN`）
+- 在 `地址栏` 输入 `cmd`，按 `回车`
+- 输入 `git checkout Anne`，按 `回车`
+- 分支切换完成，跳转到 [如何使用](#如何使用)
 ## 如何使用
 
   > 2022 旧版 webui [点这里](#如何使用旧版)
@@ -154,7 +161,7 @@ Simplified Chinese translation extension , Used for [AUTOMATIC1111's stable diff
   - 在 `Settings` 选项卡中，找到 `User interface` 子选项  
     ![image](https://user-images.githubusercontent.com/21131439/220509760-b8680fcd-9673-47e3-ba47-2ae0baf41d51.png)  
   
-  - 然后去页面最底部，找到 `Localization (requires restart)` 小项，找到在下拉选单中选中 `zh_CN` （如果没有就按一下🔄按钮），如图  
+  - 然后去页面最底部（`1.5`版本起为页面最顶部），找到 `Localization (requires restart)` 小项，找到在下拉选单中选中 `zh_CN` （如果没有就按一下🔄按钮），如图  
   ![image](https://user-images.githubusercontent.com/21131439/220510690-4445c0bc-b70b-4943-b69c-270faa7cffc1.png)  
 
   - 然后按一下 页面顶部左边的 **橙色 `Apply settings` 按钮** 保存设置，再按 右边的 **橙色 `Reload UI` 按钮** 重启webUI  
